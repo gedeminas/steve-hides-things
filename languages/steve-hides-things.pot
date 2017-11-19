@@ -1,0 +1,122 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-19 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: steve-hides-things.php:118
+msgid "Support"
+msgstr ""
+
+#: steve-hides-things.php:123
+#, php-format
+msgid ""
+"In case you have any technical questions, please call <a href=\"mailto:"
+"%1$s\">this</a> number."
+msgstr ""
+
+#: steve-hides-things.php:189
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: steve-hides-things.php:192
+msgid "Security check failed! Settings not saved."
+msgstr ""
+
+#: steve-hides-things.php:196
+msgid "Settings"
+msgstr ""
+
+#: steve-hides-things.php:211
+msgid "Dashboard"
+msgstr ""
+
+#: steve-hides-things.php:214
+msgid "Hide Activity Box"
+msgstr ""
+
+#: steve-hides-things.php:215
+msgid "Hide Other Boxes"
+msgstr ""
+
+#: steve-hides-things.php:216
+msgid "Create Support Box"
+msgstr ""
+
+#: steve-hides-things.php:220
+msgid "Admin Bar"
+msgstr ""
+
+#: steve-hides-things.php:223
+msgid "Hide Admin Bar in Front"
+msgstr ""
+
+#: steve-hides-things.php:224
+msgid "Minimal Admin Bar in Back"
+msgstr ""
+
+#: steve-hides-things.php:228
+msgid "Remove Menu Items"
+msgstr ""
+
+#: steve-hides-things.php:231
+msgid "Media"
+msgstr ""
+
+#: steve-hides-things.php:232
+msgid "Tools"
+msgstr ""
+
+#: steve-hides-things.php:232
+msgid "Menu items will not be removed for administrators."
+msgstr ""
+
+#: steve-hides-things.php:239
+msgid "Comments"
+msgstr ""
+
+#: steve-hides-things.php:240
+msgid "Categories"
+msgstr ""
+
+#: steve-hides-things.php:241
+msgid "Tags"
+msgstr ""
+
+#: steve-hides-things.php:245
+msgid "Filter Page Columns"
+msgstr ""
+
+#: steve-hides-things.php:248
+msgid "Date"
+msgstr ""
+
+#: steve-hides-things.php:249
+msgid "Author"
+msgstr ""
+
+#. Name of the plugin
+msgid "Steve Hides Things"
+msgstr ""
+
+#. Description of the plugin
+msgid "Hide some useless things in admin side and make client's life easier."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gediminas Čekanauskas"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://styvas.lt"
+msgstr ""
