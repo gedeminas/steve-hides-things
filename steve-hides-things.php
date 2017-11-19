@@ -37,8 +37,9 @@ if ( ! class_exists( 'Steve_Hides_Things' ) ) {
       }
       add_action( 'admin_menu', array( $this, 'add_admin_menu' ) );
       add_action( 'admin_init', array( $this, 'settings_init' ) );
-      add_action( 'plugins_loaded', array( $this, 'load_action_hooks' ) );
-      //$this->load_action_hooks();
+      //add_action( 'plugins_loaded', array( $this, 'load_action_hooks' ) );
+      $this->load_action_hooks();
+      $this->load_updater();
     }
     
     public function load_language( $domain ) {
@@ -87,6 +88,16 @@ if ( ! class_exists( 'Steve_Hides_Things' ) ) {
       ) {
         add_action( 'manage_edit-page_columns', array( $this, 'filter_edit_page_columns' ) );
       }
+    }
+
+    public function load_updater() {
+      if( ! class_exists( 'Smashing_Updater' ) ){
+        include_once( $this->plugin_path . 'updater.php' );
+      }
+      $updater = new Smashing_Updater( __FILE__ );
+      $updater->set_username( 'gedeminas' );
+      $updater->set_repository( 'steve-hides-things' );
+      $updater->initialize();
     }
 
     public function tidy_dashboard_widgets() {
